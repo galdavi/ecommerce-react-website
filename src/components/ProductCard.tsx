@@ -7,7 +7,7 @@ export default function ProductCard({product} : {product: Product}) {
     return (
         <div
             className="rounded-b-lg overflow-hidden shadow-md transition-all">
-            <img src={product.image} className="w-full h-50 object-cover" />
+            <img src={product.image} alt={product.name} className="w-full h-50 object-cover"/>
             <div className="p-6">
                 <h3 className="text-xl mb-2">{product.name}</h3>
                 <p className="text-2xl font-bold text-blue-400 mb-4">${product.price}</p>
