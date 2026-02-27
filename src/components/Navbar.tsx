@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom"
-
+import { buttonStyle } from "../styles/shared";
 
 export default function Navbar() {
     const navLinkStyle = "hover:text-sky-700";
-    const buttonStyle = "px-4 py-2 text-white rounded hover:bg-sky-800";
     
     return (
         <nav className="sticky top-0 flex bg-gray-200 shadow-md p-4 z-100">

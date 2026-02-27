@@ -1,7 +1,9 @@
+ import { pageStyle } from '../styles/shared';
+
  export default function Auth() {
   return (
-    <div className="auth">
-      <h1>Auth Page</h1>
+    <div className={pageStyle}>
+      
     </div>
   )
 }
